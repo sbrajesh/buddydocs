@@ -1,0 +1,171 @@
+nav#top-bar li {
+    padding-bottom: 0px;
+}
+nav#top-bar ul ul { 
+	top: 42px;
+}
+
+
+.ui-sc-button.blue {
+    background: -moz-linear-gradient(center top , #87E0FD, #05ABE0) repeat scroll 0 0 transparent;
+	/* for IE6, IE7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#87E0FD, endColorstr=#05ABE0); 
+}
+
+.ui-sc-button.green {
+    background: -moz-linear-gradient(center top , #C9DE96, #398235) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C9DE96, endColorstr=#398235); 
+}
+
+.ui-sc-button.white {
+    background: -moz-linear-gradient(center top , #FFFFFF, #CCCCCC) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#CCCCCC); 
+}
+
+.ui-sc-button.yellow {
+    background: -moz-linear-gradient(center top , #F1E767, #FEB645) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F1E767, endColorstr=#FEB645); 
+}
+
+.ui-sc-button.red {
+    background: -moz-linear-gradient(center top , #FF3019, #CF0404) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF3019, endColorstr=#CF0404); 
+}
+
+.ui-sc-button.purple {
+    background: -moz-linear-gradient(center top , #8F63CE, #5F00B2) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8F63CE, endColorstr=#5F00B2); 
+}
+
+.ui-sc-button.cerise {
+    background: -moz-linear-gradient(center top , #E56671, #BC4654) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E56671, endColorstr=#BC4654); 
+}
+
+.ui-sc-button.pink {
+    background: -moz-linear-gradient(center top , #FBA6CD, #EF75B0) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FBA6CD, endColorstr=#EF75B0); 
+}
+
+.ui-sc-button.orange {
+    background: -moz-linear-gradient(center top , #FAA200, #F77C00) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FAA200, endColorstr=#F77C00); 
+}
+
+.ui-sc-button.gray {
+    background: -moz-linear-gradient(center top , #818181, #595959) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#818181, endColorstr=#595959); 
+}
+
+.ui-sc-button.yellowgreen {
+    background: -moz-linear-gradient(center top , #9ACD31, #648128) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9ACD31, endColorstr=#648128); 
+}
+
+.ui-sc-button.tomato {
+    background: -moz-linear-gradient(center top , #FF6246, #8A3625) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF6246, endColorstr=#8A3625); 
+}
+
+.ui-sc-button.turquoise {
+    background: -moz-linear-gradient(center top , #00F5FF, #028E93) repeat scroll 0 0 transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00F5FF, endColorstr=#028E93); 
+}
+
+
+.ui-sc-button.blue:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#398235, endColorstr=#C9DE96); 
+}
+
+.ui-sc-button.green:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#398235, endColorstr=#C9DE96); 
+}
+
+.ui-sc-button.white:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#FFFFFF); 
+}
+
+.ui-sc-button.yellow:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FEB645, endColorstr=#F1E767); 
+}
+
+.ui-sc-button.red:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CF0404, endColorstr=#FF3019); 
+}
+
+.ui-sc-button.purple:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5F00B2, endColorstr=#8F63CE); 
+}
+
+.ui-sc-button.cerise:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#BC4654, endColorstr=#E56671); 
+}
+
+.ui-sc-button.pink:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EF75B0, endColorstr=#FBA6CD); 
+}
+
+.ui-sc-button.orange:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F77C00, endColorstr=#FAA200); 
+}
+
+.ui-sc-button.gray:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#595959, endColorstr=#818181); 
+}
+
+.ui-sc-button.yellowgreen:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#648128, endColorstr=#9ACD31); 
+}
+
+.ui-sc-button.tomato:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8A3625, endColorstr=#FF6246); 
+}
+
+.ui-sc-button.turquoise:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#028E93, endColorstr=#00F5FF); 
+}
+
+
+textarea { 
+	overflow: auto; 
+}
+
+
+/* Shortcode Start  */
+
+.pullquote { 
+	display: block !important; 
+	height: 200px;
+}
+.pullquote span { 
+	display: block !important; 
+}
+.blockqoute {
+    height: auto !important;
+}
+
+.qoute:after {
+    content: '&#34';
+    display: inline;
+    font-family: "Times New Roman",Georgia,Times,serif;
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.qoute:before {
+    content: '&#34';
+    display: inline;
+    font-family: "Times New Roman",Georgia,Times,serif;
+    font-size: 250%;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.login-remember input[type="checkbox"] { 
+	border: 0px !important;
+	background: none !important;
+	padding: 0px !important;
+}
+
+/* Shortcode End  */
