@@ -1,28 +1,40 @@
 /*--------------------------------------------------------------
 
-Hello, this is the Cosmic Coders pvt Ltd stylesheet.
-
+Welcome to the Club!
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:       
 ----------------------------------------------------------------
 
 
-1.0 - Reset - Based on work by Cosmic Coders pvt Ltd
-2.0 - Structural
-        2.1 - Header
-        2.2 - Navigation
-        2.4 - Container
-        2.5 - Content
-        2.6 - pagination
+1.0 - Reset - Based on work by Eric Meyer
+2.0 - Base Styles/Common Styles
+3.0 - Structural
+        3.1 - Header
+        3.2 - Navigation
+        3.3 - Breadcrumb
+        3.4 - Search
+        3.5 - Container/Layout
+        3.6 - Content
+        3.7 - Footer
         2.7 - Footer
         
-3.0 - WordPress	
-        3.1 - Alignments	
-        3.2 - Posts
-        3.3 - Comments
+4.0 - WordPress	
+        4.1 - Generic Blog elements	
+        4.2 - Posts
+        4.3 - Widgets
         3.4 - Widgets
-        3.5 - Contact Page
+     
+5.0 - Modules	
+        5.1 - Pagination	
+        5.2 - Scrollup
+        5.3 - Categories Listing
+        5.4 - Faq
+     
 
+        
+5.0 - Responsiveness
+        6.1 - Resonsive breakpoint 768px	
+       
         
 --------------------------------------------------------------*/
 
@@ -560,7 +572,7 @@ body.category #page-header:before{
 
 
 /*------------------------------------------------------------------
-2.7 - Footer
+3.7 - Footer
 --------------------------------------------------------------------*/
 
 
@@ -650,7 +662,7 @@ object {
 }
 
 /*------------------------------------------------------------------
-3.1 - Alignments
+4.2 - Post
 --------------------------------------------------------------------*/
 
 .hentry{
@@ -819,7 +831,7 @@ body.single .post:before{
 }
 
 /*------------------------------------------------------------------
-3.4 - Widgets
+4.3 - Widgets
 --------------------------------------------------------------------*/
 
 .widget {
@@ -898,10 +910,10 @@ Recent Comment */
 
 
 /*------------------------------------------------------------------
-2 - Modules
+5 - Modules
 --------------------------------------------------------------------*/
 /*------------------------------------------------------------------
-2.1 - pagination
+5.1 - Pagination
 --------------------------------------------------------------------*/
 
 
@@ -940,7 +952,7 @@ Recent Comment */
 }
 
 /*------------------------------------------------------------------
-Scroll Up
+5.2 - Scroll Up
 --------------------------------------------------------------------*/
 /* Image style */
 #scrollUp {
@@ -952,7 +964,7 @@ Scroll Up
         text-indent: -9999em;
 }
 /*------------------------------------------------------------------
-2.7 - Categories List
+5.3 - Categories List
 --------------------------------------------------------------------*/
 .categories-list{
     margin: 20px 0px;
@@ -1014,9 +1026,9 @@ body.category .categories-list{
 
 }
 
-/****
-
-Faq*/
+/*------------------------------------------------------------------
+5.4 - Faq
+--------------------------------------------------------------------*/
 
 body.archive article.type-bdocs-faq h1 a{
     padding-left: 36px;
@@ -1038,7 +1050,14 @@ body.archive article.type-bdocs-faq .entry{
 body.archive article.type-bdocs-faq .entry{
     
 }
-/*break column*/
+
+
+/*------------------------------------------------------------------
+6 - Responsiveness
+--------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+6.1 - Responsive breakpoint 768px
+--------------------------------------------------------------------*/
 @media (max-width: 767px) {
 
     #content,
@@ -1090,8 +1109,7 @@ body.archive article.type-bdocs-faq .entry{
         margin-right: 0;
     }
 }
-/**
-kill the paddings */
+/** kill the paddings */
 
 @media only screen and (min-width:768px) and (max-width : 979px) {
     .category-item,
