@@ -1,5 +1,5 @@
 <footer id="footer" class="clearfix">   <!-- footer starts here -->
-   <h1 class="assistive-text"><?php _e( 'Footer', 'buddy-docs' );?></h1>
+   <h2 class="assistive-text"><?php _e( 'Footer', 'buddy-docs' );?></h2>
      <?php if (  is_active_sidebar( 'footer-1'  ) || is_active_sidebar( 'footer-2' ) || is_active_sidebar( 'footer-3'  ) ) : ?>
         <div id="t-footer">
                 <div class="padder clearfix">
