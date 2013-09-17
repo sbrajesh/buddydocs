@@ -266,7 +266,7 @@ a img {
     padding-top:15px; 
 }
 #header-left {
-    width:305px;
+    width:26%;
     float:left;
 
 }
@@ -281,7 +281,7 @@ a img {
 
 #header-right{
     float:right;
-    width: 685px;
+    width: 74%;
 }
 
 /*------------------------------------------------------------------
@@ -291,6 +291,7 @@ a img {
 nav#top-bar {
     height: 45px;
     padding:0px 0 20px 0;
+    float:right;
 }
 nav#top-bar .menu {
     font-size: 20px;  
@@ -1048,6 +1049,7 @@ body.archive article.type-bdocs-faq .entry{
     #sidebar,
     #header-left,
     #header-right,
+    #header-right nav#top-bar,
     #footer .widget-area,
     .category-item{
         float:none;
@@ -1106,33 +1108,3 @@ kill the paddings */
 @media only screen and (max-width : 480px) {
 
 }
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-
-
