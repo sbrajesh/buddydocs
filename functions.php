@@ -155,9 +155,10 @@ class BuddyDocsThemeHelper {
     public function load_css() {
         
             $template_dir = get_template_directory_uri();
+            $stylesheet_dir = get_stylesheet_directory_uri();
             //font awesome css
             wp_enqueue_style( 'font-awesome-css', $template_dir . '/_inc/vendors/font-awesome/css/font-awesome.min.css' );
-            wp_enqueue_style( 'main-css', $template_dir . '/_inc/css/style.css' );
+            wp_enqueue_style( 'main-css', $stylesheet_dir . '/style.css' );
             wp_enqueue_style( 'men-menu-css', $template_dir . '/_inc/vendors/meanmenu/meanmenu.css' );
             wp_enqueue_style( 'live-search-css', $template_dir . '/_inc/vendors/live-search/jquery.liveSearch.css' );
 
