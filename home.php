@@ -6,7 +6,7 @@
 
         <section id="content" >
             <header id='page-header'>
-                <h1> Help Topics</h1>
+                <h1> <?php echo buddydocs_get_option( 'home_title' ); ?></h1>
             </header>
 
             <?php $categories = buddydocs_get_all_toplevel_categories(); ?>

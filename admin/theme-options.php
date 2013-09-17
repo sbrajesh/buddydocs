@@ -118,6 +118,13 @@ function setup_framework_options() {
                     'title' => __('Logo Alt Text', 'nhp-opts'),
                     'desc' => __('<br/>Write logo <b>alt text</b>.', 'nhp-opts')
                 ),
+                array(
+                    'id' => 'home_title',
+                    'type' => 'text',
+                    'title' => __('Home Page Heading', 'nhp-opts'),
+                    'std'=> __('Help Topics'),
+                    'desc' => __('It is shown as the title on home page.', 'nhp-opts')
+                ),
                  array(
                     'id' => 'favicon_icon',
                     'type' => 'upload',
