@@ -17,6 +17,7 @@ class BuddyDocsThemeHelper {
 
         add_action( 'after_setup_theme',    array( $this, 'setup' ) ); //initialize the setup, load files
         add_action( 'widgets_init',         array( $this, 'register_widget' ) ); //initialize register widget, load widget
+        add_action( 'wp_head',              array( $this, 'head_script' ) );
         add_action( 'wp_print_styles',      array( $this, 'load_fonts' ) ); //initialize load fonts
         add_action( 'wp_print_styles',      array( $this, 'load_css' ) ); //initialize load css
         add_action( 'wp_print_scripts',     array( $this, 'load_js' ) ); //initialize load scripts
@@ -161,6 +162,15 @@ class BuddyDocsThemeHelper {
             wp_enqueue_style( 'live-search-css', $template_dir . '/_inc/vendors/live-search/jquery.liveSearch.css' );
 
     } 
+    /**
+     * Echo ajaxurl
+     */
+    function head_script(){?>
+        <script type="text/javascript">
+            var ajaxurl = "<?php echo admin_url( 'admin-ajax.php' );?>";
+        </script>
+        
+    <?php }
      /**
      * Load js function 
      */
