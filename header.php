@@ -19,6 +19,7 @@
                     
                 ?>
             </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
            <?php $favicon_icon = buddydocs_get_option( 'favicon_icon' ); ?>
               
             <?php if ( $favicon_icon): ?>
